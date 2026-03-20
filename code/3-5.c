@@ -9,8 +9,13 @@ void my_sum(int input_case, ...){
 
     if((char)input_case == 'S'){
 
-        for(int i = 0 ; i < count ; i++)
-            printf("%s ",va_arg(ap, char*));
+        for(int i = 0 ; i < count ; i++){
+            printf("%s",va_arg(ap, char*));
+            if (i != count-1)
+                printf(" ");
+            
+        }
+            
         
     }
         
