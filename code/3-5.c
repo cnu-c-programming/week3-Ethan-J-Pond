@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdarg.h>
-void my_sum(char input_case, ...){
+void my_sum(int input_case, ...){
     va_list ap;
     va_start(ap, input_case);
     
